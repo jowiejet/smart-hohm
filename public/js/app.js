@@ -1984,6 +1984,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -63019,89 +63020,112 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-lg-3 col-6 mt-3" }, [
+      _c("div", { staticClass: "row justify-content-center mt-3" }, [
+        _c("div", { staticClass: "col-md-3 col-sm-6 col-12" }, [
           _c("div", { staticClass: "info-box bg-info" }, [
             _c("span", { staticClass: "info-box-icon" }, [
-              _c("i", { staticClass: "fas fa-bookmark" })
+              _c("i", { staticClass: "fas fa-image" })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "info-box-content" }, [
-              _c("span", { staticClass: "info-box-text" }, [
-                _vm._v("Bookmarks")
+              _c("h4", [
+                _c("span", { staticClass: "info-box-text" }, [
+                  _vm._v("Snapshot")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("span", { staticClass: "info-box-number" }, [_vm._v("700")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3 col-sm-6 col-12" }, [
+          _c("div", { staticClass: "info-box  bg-primary" }, [
+            _c("span", { staticClass: "info-box-icon" }, [
+              _c("i", { staticClass: "fas fa-thermometer" })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "info-box-content" }, [
+              _c("h4", [
+                _c("span", { staticClass: "info-box-text" }, [
+                  _vm._v("Temperature")
+                ])
               ]),
               _vm._v(" "),
               _c("span", { staticClass: "info-box-number" }, [
-                _vm._v("41,410")
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "progress" }, [
-                _c("div", {
-                  staticClass: "progress-bar",
-                  staticStyle: { width: "70%" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("span", { staticClass: "progress-description" }, [
-                _vm._v("\n              70% Increase in 30 Days\n            ")
+                _vm._v("40 Deg.")
               ])
             ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-lg-3 col-6 mt-3" }, [
-          _c("div", { staticClass: "small-box bg-success" }, [
-            _c("div", { staticClass: "inner" }, [
-              _c("h3", [_vm._v("150")]),
+        _c("div", { staticClass: "col-md-3 col-sm-6 col-12" }, [
+          _c("div", { staticClass: "info-box bg-danger" }, [
+            _c("span", { staticClass: "info-box-icon" }, [
+              _c("i", { staticClass: "fas fa-mobile" })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "info-box-content" }, [
+              _c("h4", [
+                _c("span", { staticClass: "info-box-text" }, [
+                  _vm._v("Devices")
+                ])
+              ]),
               _vm._v(" "),
-              _c("p", [_vm._v("Total Devices")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "icon" }, [
-              _c("i", { staticClass: "ion ion-bag" })
-            ]),
-            _vm._v(" "),
-            _c("a", { staticClass: "small-box-footer", attrs: { href: "#" } }, [
-              _vm._v("More info "),
-              _c("i", { staticClass: "fas fa-arrow-circle-right" })
+              _c("span", { staticClass: "info-box-number" }, [_vm._v("10")])
             ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-lg-3 col-6 mt-3" }, [
-          _c("div", { staticClass: "small-box bg-warning" }, [
-            _c("div", { staticClass: "inner" }, [
-              _c("h3", [_vm._v("2")]),
+        _c("div", { staticClass: "col-md-3 col-sm-6 col-12" }, [
+          _c("div", { staticClass: "info-box bg-success" }, [
+            _c("span", { staticClass: "info-box-icon" }, [
+              _c("i", { staticClass: "fas fa-bell" })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "info-box-content" }, [
+              _c("h4", [
+                _c("span", { staticClass: "info-box-text" }, [_vm._v("Alerts")])
+              ]),
               _vm._v(" "),
-              _c("p", [_vm._v("New Orders")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "icon" }, [
-              _c("i", { staticClass: "ion ion-bag" })
-            ]),
-            _vm._v(" "),
-            _c("a", { staticClass: "small-box-footer", attrs: { href: "#" } }, [
-              _vm._v("More info "),
-              _c("i", { staticClass: "fas fa-arrow-circle-right" })
+              _c("span", { staticClass: "info-box-number" }, [_vm._v("1,410")])
             ])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-lg-3 col-6 mt-3" }, [
-          _c("div", { staticClass: "small-box bg-danger" }, [
-            _c("div", { staticClass: "inner" }, [
-              _c("h3", [_vm._v("4")]),
+        _c("div", { staticClass: "col-md-6" }, [
+          _c("div", { staticClass: "card card-primary" }, [
+            _c("div", { staticClass: "card-header" }, [
+              _c("h3", { staticClass: "card-title" }, [_vm._v("Area Chart")]),
               _vm._v(" "),
-              _c("p", [_vm._v("New Orders")])
+              _c("div", { staticClass: "card-tools" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-tool",
+                    attrs: { type: "button", "data-card-widget": "collapse" }
+                  },
+                  [_c("i", { staticClass: "fas fa-minus" })]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-tool",
+                    attrs: { type: "button", "data-card-widget": "remove" }
+                  },
+                  [_c("i", { staticClass: "fas fa-times" })]
+                )
+              ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "icon" }, [
-              _c("i", { staticClass: "ion ion-bag" })
-            ]),
-            _vm._v(" "),
-            _c("a", { staticClass: "small-box-footer", attrs: { href: "#" } }, [
-              _vm._v("More info "),
-              _c("i", { staticClass: "fas fa-arrow-circle-right" })
+            _c("div", { staticClass: "card-body" }, [
+              _c("div", { staticClass: "chart" }, [
+                _c("canvas", {
+                  staticStyle: { height: "250px", "min-height": "250px" },
+                  attrs: { id: "areaChart" }
+                })
+              ])
             ])
           ])
         ])

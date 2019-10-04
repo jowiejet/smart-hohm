@@ -1,59 +1,60 @@
 <template>
     <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-6 mt-3">
-            <div class="info-box bg-info">
-              <span class="info-box-icon"><i class="fas fa-bookmark"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Bookmarks</span>
-                <span class="info-box-number">41,410</span>
-
-                <div class="progress">
-                  <div class="progress-bar" style="width: 70%"></div>
-                </div>
-                <span class="progress-description">
-                  70% Increase in 30 Days
-                </span>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-            <div class="col-lg-3 col-6 mt-3">
-                <div class="small-box bg-success">
-                    <div class="inner">
-                        <h3>150</h3>
-                        <p>Total Devices</p>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box bg-info">
+                    <span class="info-box-icon"><i class="fas fa-image"></i></span>
+                    <div class="info-box-content">
+                        <h4><span class="info-box-text">Snapshot</span></h4>
+                        <span class="info-box-number">700</span>
                     </div>
-                    <div class="icon">
-                        <i class="ion ion-bag"></i>
-                    </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-6 mt-3">
-                <div class="small-box bg-warning">
-                    <div class="inner">
-                        <h3>2</h3>
-                        <p>New Orders</p>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box  bg-primary">
+                    <span class="info-box-icon"><i class="fas fa-thermometer"></i></span>
+                    <div class="info-box-content">
+                        <h4><span class="info-box-text">Temperature</span></h4>
+                        <span class="info-box-number">40 Deg.</span>
                     </div>
-                    <div class="icon">
-                        <i class="ion ion-bag"></i>
-                    </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-6 mt-3">
-                <div class="small-box bg-danger">
-                    <div class="inner">
-                        <h3>4</h3>
-                        <p>New Orders</p>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box bg-danger">
+                    <span class="info-box-icon"><i class="fas fa-mobile"></i></span>
+                    <div class="info-box-content">
+                        <h4><span class="info-box-text">Devices</span></h4>
+                        <span class="info-box-number">10</span>
                     </div>
-                    <div class="icon">
-                        <i class="ion ion-bag"></i>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="info-box bg-success">
+                    <span class="info-box-icon"><i class="fas fa-bell"></i></span>
+                    <div class="info-box-content">
+                        <h4><span class="info-box-text">Alerts</span></h4>
+                        <span class="info-box-number">1,410</span>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Area Chart</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart">
+                            <canvas id="areaChart" style="height:250px; min-height:250px"></canvas>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
